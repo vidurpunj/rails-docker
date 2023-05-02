@@ -1,1 +1,6 @@
-Sample project demonstrating how to integrate Sidekiq and Redis into an existing Rails project, as described in [How To Add Sidekiq and Redis to a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-add-sidekiq-and-redis-to-a-ruby-on-rails-application)
+docker-compose exec app bundle exec rake db:setup db:migrate
+docker-compose up -d
+docker-compose ps
+
+# Go to a docker
+sudo docker exec –it postgres /bin/bash
